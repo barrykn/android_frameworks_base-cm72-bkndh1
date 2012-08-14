@@ -332,7 +332,7 @@ class GlobalActions implements DialogInterface.OnDismissListener, DialogInterfac
 
         mItems = Lists.newArrayList(
                 // silent mode
-                mSilentModeToggle,
+                // mSilentModeToggle,
                 // next: airplane mode
                 // mAirplaneModeOn,
                 // next: choose profile
