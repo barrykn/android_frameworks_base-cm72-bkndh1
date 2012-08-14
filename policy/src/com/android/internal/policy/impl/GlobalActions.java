@@ -334,7 +334,7 @@ class GlobalActions implements DialogInterface.OnDismissListener, DialogInterfac
                 // silent mode
                 mSilentModeToggle,
                 // next: airplane mode
-                mAirplaneModeOn,
+                // mAirplaneModeOn,
                 // next: choose profile
                 new ProfileChooseAction() {
                     public void onPress() {
