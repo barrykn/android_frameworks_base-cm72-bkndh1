@@ -336,6 +336,7 @@ class GlobalActions implements DialogInterface.OnDismissListener, DialogInterfac
                 // next: airplane mode
                 // mAirplaneModeOn,
                 // next: choose profile
+                /* (Yes, I'm going to cut this out too.)
                 new ProfileChooseAction() {
                     public void onPress() {
                         createProfileDialog();
@@ -349,6 +350,7 @@ class GlobalActions implements DialogInterface.OnDismissListener, DialogInterfac
                         return false;
                     }
                 },
+                 */
                 // next: screenshot
                 new SinglePressAction(com.android.internal.R.drawable.ic_lock_screenshot, R.string.global_action_screenshot) {
                     public void onPress() {
