@@ -107,7 +107,9 @@ public class QuickContactBadge extends ImageView implements OnClickListener {
 
     private void init() {
         mQueryHandler = new QueryHandler(mContext.getContentResolver());
-        setOnClickListener(this);
+        // My user can't handle Quick Contact Badges. I'll just comment out
+        // the next line so they play dead instead.
+        //setOnClickListener(this);
     }
 
     /**
