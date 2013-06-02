@@ -55,7 +55,7 @@ public class ViewConfiguration {
      * Defines the duration in milliseconds before a press turns into
      * a long press
      */
-    private static final int LONG_PRESS_TIMEOUT = 15000;
+    private static final int LONG_PRESS_TIMEOUT = 14500;
     
     /**
      * Defines the duration in milliseconds a user needs to hold down the
